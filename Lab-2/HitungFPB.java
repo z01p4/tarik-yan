@@ -1,13 +1,16 @@
 public class HitungFPB {
     public static int hitungFPB(int x, int y) {
+        // Inisialisasi
         int pembagi, tdkPembagi;
 
+        // Logika mencari pembagi
         if (x >= y) {
             pembagi = y;
         } else {
             pembagi = x;
         }
 
+        // Logika utama program
         if (x % pembagi == 0 && y % pembagi == 0) {
             return pembagi;
         } else {

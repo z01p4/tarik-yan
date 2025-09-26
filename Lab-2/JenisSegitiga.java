@@ -1,7 +1,9 @@
 public class JenisSegitiga {
     public static String jenisSegiga(int a, int b, int c) {
+        // Inisialisasi
         int terbesar, terkecil1, terkecil2;
 
+        // Logika mencari yang terbesar
         if (a >= b && a >= c) {
             terbesar = a;
             terkecil1 = b;
@@ -16,6 +18,7 @@ public class JenisSegitiga {
             terkecil2 = b;
         }
 
+        // Logika utama program
         if (Math.pow(terbesar, 2) == (Math.pow(terkecil1, 2) + Math.pow(terkecil2, 2))) {
             return "Siku-siku";
         } else if (terbesar >= terkecil1 + terkecil2) {

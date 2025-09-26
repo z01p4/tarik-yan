@@ -27,5 +27,14 @@ public class HitungFPBTest {
     public void checkFPB_case4(){
         assertEquals(11, HitungFPB.hitungFPB(22,121));
     }
-    
+
+    @Test
+    public void checkFPB_case5(){
+        assertEquals(0, HitungFPB.hitungFPB(-3, -5));
+    }
+
+    @Test
+    public void checkFPB_case6(){
+        assertEquals(4, HitungFPB.hitungFPB(12, 4));
+    }
 }

@@ -3,10 +3,8 @@ public class HitungFPB {
         int pembagi, tdkPembagi;
 
         if (x >= y) {
-            tdkPembagi = x;
             pembagi = y;
         } else {
-            tdkPembagi = y;
             pembagi = x;
         }
 
@@ -19,6 +17,6 @@ public class HitungFPB {
                 }
             }
         }
-        return 1;
+        return 0;
     }
 }
